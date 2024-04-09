@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Site Brendon Burchard. #1 New York Times Bestselling Author</title>
+
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- custom styles -->
+
+    <style>
+        .container {
+            padding: 0px 60px;
+        }
+
+        .list-inline-item a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s;
+        }
+
+        .list-inline-item a:hover {
+            color: skyblue;
+            text-decoration: none;
+        }
+
+        .custom-img {
+            width: 20px;
+            transition: transform 0.3s;
+        }
+
+        .custom-img:hover {
+            transform: scale(1.2);
+            color: skyblue;
+            cursor: pointer;
+        }
+
+        .banner iframe {
+            width: 100%;
+            height: 500px;
+        }
+
+        .highlight-text {
+            color: skyblue;
+            transition: color 0.3s;
+        }
+
+        .highlight-text:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        .blockquote p {
+            font-size: 30px;
+        }
+
+        .blockquote .quote {
+            color: rgba(128, 128, 128, 0.439);
+            font-size: 50px;
+        }
+
+        .highlight-text2 {
+            color: skyblue;
+            transition: color 0.3s;
+            font-weight: bolder;
+            font-size: 23px;
+        }
+
+        .highlight-text2:hover {
+            color: #dc3545;
+        }
+
+        .btn {
+            color: red;
+            background-color: rgba(155, 142, 142, 0.278);
+            border: none;
+
+        }
+
+        .btn:hover {
+            color: red;
+            background-color: rgba(155, 142, 142, 0.47);
+
+        }
+
+        .highlight-text1 {
+            color: skyblue;
+            transition: color 0.3s;
+            font-weight: bolder;
+        }
+
+        .highlight-text1:hover {
+            color: #dc3545;
+        }
+
+        .box {
+            height: 100px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: rgba(128, 128, 128, 0.262);
+        }
+
+        h3 {
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #888;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .row-border-thin {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .row-border-thick {
+            border-bottom: 6px solid black;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-radius: 3px;
+        }
+
+        .line {
+            height: 20px;
+            transform: translateY(3px);
+            width: 1px;
+            background-color: white;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .course {
+            font-size: small;
+            color: white;
+        }
+
+        .blog {
+            background-color: #578c90;
+        }
+
+        .para {
+            margin-left: 180px;
+        }
+
+        /* Footer Section Start */
+
+        .center-nav {
+        display: flex;
+        justify-content: center;
+      }
+      .nav-link {
+        background-color:rgba(255, 255, 255, 0.22);
+        border-radius: 4px;
+        padding: 0 20px;
+        transition: color 0.3s; /* Adding transition for smooth effect */
+        margin-top: 10px;
+    
+      }
+      .nav-link:hover {
+        color: skyblue; /* Changing color on hover */
+      }
+
+      .footer {
+        background-color: #252525;
+        height: 500px;
+        width: 100%;
+        padding: 0 60px;
+      }
+      .custom-div {
+            color: white; /* Set text color to white */
+            background-color: #252525; /* Set background color */
+            padding: 10px; /* Add padding for better spacing */
+            margin-bottom: 10px; /* Add margin bottom for spacing between divs */
+        }
+        .custom-div h5 {
+            border-bottom: 2px solid skyblue; /* Add border-bottom to h5 tag */
+            padding-bottom: 5px; /* Add some padding for better spacing */
+        }
+        .custom-div ul {
+            list-style-type: none; /* Remove default list style */
+            padding-left: 0; /* Remove default left padding for ul */
+        }
+        .custom-div ul li {
+            margin-bottom: 30px; /* Add margin bottom for spacing between li items */
+        }
+        .custom-div ul li a {
+            color: white; /* Set default link color to white */
+            text-decoration: none; /* Remove default underline */
+            transition: border-bottom-color 0.3s; /* Add transition for smooth effect */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.194);
+        }
+        .custom-div a:hover {
+            border-bottom: 1px solid skyblue; /* Add border-bottom on hover */
+        }
+        .custom-img1 {
+            width: 50px;
+            transition: transform 0.3s;
+        }
+
+        .custom-img1:hover {
+            transform: scale(1.2);
+            color: skyblue;
+            cursor: pointer;
+        }
+        .social-icons1 img {
+            border: 2px solid gray; /* Add border with gray color */
+            border-radius: 50%; /* Add border-radius */
+            padding: 10px; /* Add padding to adjust border position */
+            background-color: rgba(128, 128, 128, 0.225);
+        }
+      
+        /* Footer Section End */
+    </style>
+</head>
+
+<body>
+    <div class="container bg-light">
+        <!-- Header Section Start -->
+
+        <div class="row align-items-center justify-content-between pt-3">
+            <div class="col-12 col-sm-6 col-md-auto">
+                <h4 class="m-0">BRENDON BURCHARD</h4>
+            </div>
+            <!-- Navigation -->
+           <div class="col-12 col-sm-auto col-md-auto">
+                <nav>
+                    <ul class="list-inline m-0">
+                        <li class="list-inline-item"><a href="https://brendon.com/" class="active">HOME</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">ABOUT</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">COURSES</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">BLOG</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">VIDEOS</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">BOOKS</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">PODCAST</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">STORE</a></li>
+                        <li class="list-inline-item"><a href="https://brendon.com/">CONTACT</a></li>
+                    </ul>
+                </n av>
+            </div>
+            <!-- Social Icons -->
+            <div class="col-12 col-sm-auto col-md-auto">
+                <div class="social-icons">
+                    <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/FB_icon-icons.com_65534.png" alt=""
+                        class="custom-img me-2 img-fluid" />
+                    <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/TWITTER_icon-icons.com_65536.png" alt=""
+                        class="custom-img me-2 img-fluid" />
+                    <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/YOUTUBE_icon-icons.com_65537.png" alt=""
+                        class="custom-img me-2 img-fluid" />
+                    <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/INSTAGRAM_icon-icons.com_65535.png" alt=""
+                        class="custom-img me-2 img-fluid" />
+                    <img src="https://cdn.icon-icons.com/icons2/1509/PNG/96/search_104498.png" alt=""
+                        class="custom-img img-fluid" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Section End -->
+
+        <!-- Banner Section Start  -->
+        <div class="banner mt-5">
+            <iframe id="video-iframe-1"
+                src="//player.vimeo.com/video/302200846?api=1&amp;player_id=video-iframe-1&amp;html5=1&amp;autopause=0&amp;autoplay=1&amp;badge=0&amp;byline=0&amp;loop=1&amp;title=0"
+                frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div>
+        <!-- Banner Section End  -->
+
+        <!-- Content Section Start -->
+        <section class="mt-5">
+            <h4 class="fs-5">Meet Brendon</h4>
+            <div>
+                <p class="fs-6">
+                    Brendon Burchard is the world’s #1 high performance coach, a 3-time
+                    New York Times bestselling author, and one of the most-watched,
+                    quoted, and followed motivational speakers in history. Success
+                    Magazine and O, The Oprah Magazine, named him one of the most
+                    influential leaders in personal growth. Forbes named him the world’s
+                    leading high performance coach. Larry King named him the world’s top
+                    motivational trainer.
+                </p> <br>
+            </div>
+            <div>
+                <p class="fs-6">
+                    An early pioneer in online education, Brendon’s personal development
+                    teaching have more than 300 million views. Over 2 million students
+                    have completed his online courses and video series. He’s created 20
+                    blockbuster online courses, including the most popular motivation,
+                    confidence, habits, leadership, and high performance courses of all
+                    time. For these results, Oprah.com named him “one of the most
+                    successful online trainers in history.” Success Magazine profiled
+                    him on its cover, twice.
+                </p> <br>
+            </div>
+
+            <div>
+                <p class="fs-6">
+                    A #1 New York Times, #1 Amazon, $1 Wall Street Journal, and #1 USA
+                    Today bestselling author, Brendon’s books include
+                    <span class="highlight-text"> <i>High Performance Habits, The Motivation Manifesto, The Charge,
+                            The Millionaire Messenger</i>
+                    </span>
+                    and <span class="highlight-text"><i>Life’s Golden Ticket.</i></span> His
+                    most recent book, High Performance Habits, was a multiple week Wall
+                    Street Journal bestseller and Amazon editors named it one of the
+                    “Top 3 Best Business & Leadership Books.”
+                </p> <br>
+            </div>
+            <div>
+
+                <p class="fs-6">
+                    Brendon’s podcast the
+                    <span class="highlight-text"><i>THE BRENDON SHOW</i> </span>debuted at #1
+                    across all categories worldwide in its first season and now has over
+                    100 million downloads.
+                </p>
+                <br />
+            </div>
+            <div>
+                <p class="fs-6">
+                    Brendon is one the most requested high performance trainers and
+                    motivational speakers of all time. He has shared the stage with the
+                    Dalai Lama, Sir Richard Branson, Tim Ferriss, Tony Robbins, and many
+                    of the leading influencers of this era. His live seminar events –
+                    named as “must-attends” by Entrepreneur Magazine – sell out to
+                    audiences from around the world.
+                </p>
+            </div>
+            <div>
+                <p class="fs-6">
+                    Today, Brendon is mentor to many of today’s most followed
+                    influencers and continues creating personal growth content everyday…
+                    just as he has for the last 25 years. He is founder and CEO of<span class="highlight-text">
+                        <i> GrowthDay,</i></span>
+                    the world’s #1 personal development platform, and investor in
+                    Kajabi, Circle, Community, VidApp, and more.
+                </p>
+                <br />
+            </div>
+        </section>
+        <!-- Content Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section>
+            <div>
+                <p class="highlight-text1">
+                    Read the Success Magazine Profile of Brendon Burchard.
+                </p>
+                <br />
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/one.jpg" alt="" class="img-fluid border rounded" />
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p class="size mt-1 mb-5 font-weight-bold">
+                            <span class="quote">❝</span> Brendon Burchard is the top motivation and marketing trainer in
+                            the world.<span class="quote">❞</span>
+                        </p>
+
+                        <footer class="blockquote-footer">LARRY KING</footer>
+                        <button type="button" class="btn btn-secondary btn-lg float-end">Read More</button>
+                    </blockquote>
+                </div>
+            </div>
+            <br />
+            <br />
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/two.jpg" alt="" class="img-fluid border rounded" />
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p class="size mt-1 mb-5 font-weight-bold">
+                            <span class="quote">❝</span> One of the most successful online trainers in history.<span
+                                class="quote">❞</span>
+                        </p>
+
+                        <footer class="blockquote-footer">OPRAH.COM</footer>
+                        <button type="button" class="btn btn-secondary btn-lg float-end">Read More</button>
+                    </blockquote>
+                </div>
+            </div>
+            <br />
+            <br />
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/three.jpg" alt="" class="img-fluid border rounded" />
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p class="size mt-1 mb-5 font-weight-bold">
+                            <span class="quote">❝</span> He’s a constant student of life and business, which is at the
+                            heart of his seemingly jet-fueled success.<span class="quote">❞</span>
+                        </p>
+
+                        <footer class="blockquote-footer">
+                            <span class="highlight-text3">SUCCESS Magazine, September 2017</span>
+                            <span class="highlight-text2">cover story on Brendon.</span>
+                        </footer>
+                        <button type="button" class="btn btn-secondary btn-lg float-end">Read More</button>
+
+                    </blockquote>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box">
+                        <h5>Get Daily Motivation</h5>
+                        <!-- <img class="custom-img1" src="https://cdn.icon-icons.com/icons2/625/PNG/96/thumb-up_icon-icons.com_57388.png" alt="">
+                              <p>5 million people like this, <a href="">Sign Up</a> <br> to see what you friends</p>  -->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <h5>Watch Brendon's Show</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <h5>Downlad Brendon's Podcasts</h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- Small Banner Section Start -->
+        <div class="blog py-3 text-center text-light mt-5 mb-5"> <!-- Added text-center and text-light classes -->
+            <div class="container d-flex align-items-center">
+                <h4 class="mb-0">blog</h4> <!-- Added mb-0 to remove margin bottom -->
+                <h5 class="para mb-0">Featured Posts by Brendon Burchard</h5>
+                <!-- Added mb-0 to remove margin bottom -->
+            </div>
+        </div>
+        <!-- Small Banner Section End -->
+
+        <!-- Youtube Section Start -->
+        <section>
+            <div class="row">
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <header class="featured-image-container p-3 mb-3 shadow"> <!-- Added shadow class for box shadow -->
+                        <img src="img/four.png" class="img-fluid" alt="Image 1">
+                        <h1 class="entry-title fs-5 mt-3 text-center"><a
+                                href="https://brendon.com/blog/confidence-blueprint/">The CONFIDENCE Blueprint <br> –
+                                How to OWN Your Worth</a></h1>
+                    </header>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <header class="featured-image-container p-3 mb-3 shadow"> <!-- Added shadow class for box shadow -->
+                        <img src="img/four.png" class="img-fluid" alt="Image 2">
+                        <h1 class="entry-title text-black fs-5 mt-3 text-center"><a
+                                href="https://brendon.com/blog/confidence-blueprint/">The CONFIDENCE Blueprint <br> –
+                                How to OWN Your Worth</a></h1>
+                    </header>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <header class="featured-image-container p-3 mb-3 shadow"> <!-- Added shadow class for box shadow -->
+                        <img src="img/four.png" class="img-fluid" alt="Image 3">
+                        <h1 class="entry-title text-black fs-5 mt-3 text-center"><a
+                                href="https://brendon.com/blog/confidence-blueprint/">The CONFIDENCE Blueprint <br> –
+                                How to OWN Your Worth</a></h1>
+                    </header>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <header class="featured-image-container p-3 mb-3 shadow"> <!-- Added shadow class for box shadow -->
+                        <img src="img/four.png" class="img-fluid" alt="Image 1">
+                        <h1 class="entry-title fs-5 mt-3 text-center"><a
+                                href="https://brendon.com/blog/confidence-blueprint/">The CONFIDENCE Blueprint <br> –
+                                How to OWN Your Worth</a></h1>
+                    </header>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <header class="featured-image-container p-3 mb-3 shadow"> <!-- Added shadow class for box shadow -->
+                        <img src="img/four.png" class="img-fluid" alt="Image 2">
+                        <h1 class="entry-title text-black fs-5 mt-3 text-center"><a
+                                href="https://brendon.com/blog/confidence-blueprint/">The CONFIDENCE Blueprint <br> –
+                                How to OWN Your Worth</a></h1>
+                    </header>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <header class="featured-image-container p-3 mb-3 shadow"> <!-- Added shadow class for box shadow -->
+                        <img src="img/four.png" class="img-fluid" alt="Image 3">
+                        <h1 class="entry-title text-black fs-5 mt-3 text-center"><a
+                                href="https://brendon.com/blog/confidence-blueprint/">The CONFIDENCE Blueprint <br> –
+                                How to OWN Your Worth</a></h1>
+                    </header>
+                </div>
+            </div>
+        </section>
+        <!-- Youtube Section End -->
+
+        <!-- Small Banner Section Start -->
+        <div class="blog py-3 text-center text-light mt-5 mb-5"> <!-- Added text-center and text-light classes -->
+            <div class="container d-flex align-items-center">
+                <h4 class="mb-0">PROGRAMS
+                </h4> <!-- Added mb-0 to remove margin bottom -->
+                <h5 class="para mb-0">with Brendon Burchard</h5> <!-- Added mb-0 to remove margin bottom -->
+            </div>
+        </div>
+        <!-- Small Banner Section End -->
+
+        <!-- Card Section Start -->
+        <section>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.growthday.com" class="pointer"> <img src="img/five.png" alt=""
+                            class="img-fluid"> <!-- Added img-fluid class for responsive image --></a>
+
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>GrowthDay App!</h2>
+                        <h3>Your New Home for Personal Development</h3>
+                        <p>GrowthDay app combines all your personal development journaling, habit tracking, goal
+                            setting, <br> wellness challenges, and online courses and personal growth coaching in one
+                            place. It also features <br>Brendon and the world’s leading personal growth teachers LIVE
+                            every week! <a href="https://www.growthday.com" target="_blank"
+                                rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.growthday.com/?_gl=1*1847pj7*_gcl_au*MTc4OTk4OTM4MC4xNzEyNTg5OTU5"
+                            class="pointer"><button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://go.influencerpro.com/influencerpro" class="pointer"><img src="img/six.jpeg" alt=""
+                            class="img-fluid"> <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>InfluencerPro</h2>
+                        <h3>Join the creator economy and monetize what you know.</h3>
+                        <p>Join Brendon Burchard and the world’s most experienced influencers as they share their
+                            business models, audience growth strategies, social media campaigns, and modern monetization
+                            strategies for book deals, online sales, sponsorships, brand deals, documentaries,
+                            appearances, and partnerships. <a href="https://go.influencerpro.com/influencerpro"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://go.influencerpro.com/influencerpro" class="pointer"> <button
+                                class="btn btn-primary mt-3 mb-5">CLICK HERE <span class="line"></span> <span
+                                    class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.growthday.com/chpc" class="pointer"><img src="img/seven.png" alt=""
+                            class="img-fluid"> <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>Certified High Performance Coaching</h2>
+                        <h3>Get rigorously trained by Brendon Burchard, the world’s leading high performance coach</h3>
+                        <p>This is your opportunity to receive the highest-level coaching certification in the world.
+                            Certified High Performance Coaches gain the transformation and marketing tools needed to
+                            build their own highly successful coaching brand. Spots are limited.<a
+                                href="https://www.growthday.com/chpc" target="_blank" rel="noopener noreferrer">Click
+                                here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.growthday.com/chpc" class="pointer"><button
+                                class="btn btn-primary mt-3 mb-5">CLICK HERE <span class="line"></span> <span
+                                    class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Card Section End -->
+
+        <!-- Small Banner Section Start -->
+        <div class="blog py-3 text-center text-light mt-3 mb-5"> <!-- Added text-center and text-light classes -->
+            <div class="container d-flex align-items-center">
+                <h4 class="mb-0">BOOKS
+
+                </h4> <!-- Added mb-0 to remove margin bottom -->
+                <h5 class="para mb-0 ">by Brendon Burchard</h5> <!-- Added mb-0 to remove margin bottom -->
+            </div>
+        </div>
+        <!-- Small Banner Section End -->
+
+        <!-- Card Section Start -->
+        <section>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.amazon.com/High-Performance-Habits-Extraordinary-People/dp/1401952852?_encoding=UTF8&qid=1643349176&sr=8-2&linkCode=sl1&tag=lifsgoltic-20&linkId=4c3584e15f6bd7ad145e10e30a870dd1&language=en_US&ref_=as_li_ss_tl"
+                        class="pointer"> <img src="img/eight.jpg" alt="" class="img-fluid">
+                        <!-- Added img-fluid class for responsive image --></a>
+
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>High Performance Habits</h2>
+                        <h3>How Extraordinary People Become That Way</h3>
+                        <p>“High Performance Habits shows you what you need to do to achieve your highest potential. It
+                            is<br> research-based, brimmensely practical, and will make a big difference in your life.
+                            Brendon Burchard is <br>my high performance coach and I know he can help you.” — Daniel G.
+                            Amen, MD, 10-Time New York <br>Times Bestselling Author, including Change Your Brain, Change
+                            Your Life High Performance Habits is a<br> science-backed, heart-centered plan to living a
+                            better quality of life. After extensive original research<br> and a decade as the world’s
+                            highest-paid performance coach, Brendon Burchard finally reveals the<br> most effective
+                            habits for reaching long-term success. It turns out that just six habits move the needle<br>
+                            the most in helping you succeed. <a
+                                href="https://www.amazon.com/High-Performance-Habits-Extraordinary-People/dp/1401952852?_encoding=UTF8&qid=1643349176&sr=8-2&linkCode=sl1&tag=lifsgoltic-20&linkId=4c3584e15f6bd7ad145e10e30a870dd1&language=en_US&ref_=as_li_ss_tl"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.com/High-Performance-Habits-Extraordinary-People/dp/1401952852?_encoding=UTF8&qid=1643349176&sr=8-2&linkCode=sl1&tag=lifsgoltic-20&linkId=4c3584e15f6bd7ad145e10e30a870dd1&language=en_US&ref_=as_li_ss_tl"
+                            class="pointer"><button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.amazon.com/dp/1401948073?_encoding=UTF8&pd_rd_w=tSWJe&pf_rd_p=9aa30bae-d685-4626-879d-c38f81e830a3&pf_rd_r=FYGJWJ13J71JCECHW4Y2&pd_rd_r=35da6a30-5a6e-48b9-a59b-8a714617dd26&pd_rd_wg=1469Q&linkCode=sl1&tag=lifsgoltic-20&linkId=c08fec562554aa13375421bf359d60eb&language=en_US&ref_=as_li_ss_tl"
+                        class="pointer"><img src="img/nine.png" alt="" class="img-fluid">
+                        <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>The Motivation Manifesto</h2>
+                        <h3>9 Declarations to Claim Your Personal Power</h3>
+                        <p>
+                            The Motivation Manifesto
+                            9 Declarations to Claim Your Personal Power
+                            “The Motivation Manifesto is a poetic and powerful call to reclaim our lives and find our
+                            own personal<br> freedom. It’s a triumphant work that transcends the title, lifting the
+                            reader from mere motivation into a <br>soaringly purposeful and meaningful life. I love this
+                            book” — Paulo Coelho, author of THE <br>ALCHEMIST The Motivation Manifesto is a pulsing,
+                            articulate, ferocious call to claim our personal <br>power. World-renowned high performance
+                            trainer Brendon Burchard reveals that the main motive of<br> humankind is the pursuit of
+                            greater Personal Freedom. We desire the grand liberties of choice—time <br>freedom,
+                            emotional freedom, social freedom, financial freedom, spiritual freedom. Only two enemies
+                            <br>stand in our way: an external enemy, defined as the social oppression of who we are by
+                            the mediocre <br>masses, and an internal enemy, a sort of self-oppression caused by our own
+                            doubt and fear. <a
+                                href="https://www.amazon.com/dp/1401948073?_encoding=UTF8&pd_rd_w=tSWJe&pf_rd_p=9aa30bae-d685-4626-879d-c38f81e830a3&pf_rd_r=FYGJWJ13J71JCECHW4Y2&pd_rd_r=35da6a30-5a6e-48b9-a59b-8a714617dd26&pd_rd_wg=1469Q&linkCode=sl1&tag=lifsgoltic-20&linkId=c08fec562554aa13375421bf359d60eb&language=en_US&ref_=as_li_ss_tl"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.com/dp/1401948073?_encoding=UTF8&pd_rd_w=tSWJe&pf_rd_p=9aa30bae-d685-4626-879d-c38f81e830a3&pf_rd_r=FYGJWJ13J71JCECHW4Y2&pd_rd_r=35da6a30-5a6e-48b9-a59b-8a714617dd26&pd_rd_wg=1469Q&linkCode=sl1&tag=lifsgoltic-20&linkId=c08fec562554aa13375421bf359d60eb&language=en_US&ref_=as_li_ss_tl"
+                            class="pointer"> <button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.amazon.com/Charge-Activating-Human-Drives-Alive/dp/1451667531?&linkCode=sl1&tag=lifsgoltic-20&linkId=2c42f8b5c7af28f6a005a4c041452576&language=en_US&ref_=as_li_ss_tl"
+                        class="pointer"><img src="img/ten.png" alt="" class="img-fluid">
+                        <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>
+                            The Charge</h2>
+                        <h3>Activating the 10 Human Drives that Make You Feel Alive</h3>
+                        <p>This book reveals how you can feel more alive, productive and fulfilled in a chaotic world
+                            by<br> mastering the very drives that make you most human and happy.<a
+                                href="https://www.amazon.com/Charge-Activating-Human-Drives-Alive/dp/1451667531?&linkCode=sl1&tag=lifsgoltic-20&linkId=2c42f8b5c7af28f6a005a4c041452576&language=en_US&ref_=as_li_ss_tl"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.com/Charge-Activating-Human-Drives-Alive/dp/1451667531?&linkCode=sl1&tag=lifsgoltic-20&linkId=2c42f8b5c7af28f6a005a4c041452576&language=en_US&ref_=as_li_ss_tl"
+                            class="pointer"><button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.amazon.com/Millionaire-Messenger-Difference-Fortune-Sharing/dp/1451665997?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.Xp9F2RwJf5z2Fbw1a9ANC_fE0W2gZ_k9Hw-5WNfUVSUCcZzSt5H75QrAl4xhBp29JAGabu5kLTOpk6Lx--dc-R0EK2gc5hhAhxbUHGPvn_kbYSL8liJ48c2JHee2DXjG.Wugo9zx3er2u--8EWlOcQIMsMUtP4Y7K7bmK8VvQzRU&qid=1710116475&sr=8-1&linkCode=sl1&tag=lifsgoltic-20&linkId=f48a28e31178affa7b3c01926a53ff1c&language=en_US&ref_=as_li_ss_tl"
+                        class="pointer"><img src="img/eleven.png" alt="" class="img-fluid">
+                        <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>
+
+                            The Millionaire Messenger</h2>
+                        <h3>Make a Difference and a Fortune Sharing Your Advice</h3>
+                        <p>The Millionaire Messenger reveals how everyday people can share their life’s lessons and
+                            advice with <br>others and earn a fortune in the process. Author Brendon Burchard reveals a
+                            10-step plan for making <br>an impact and an income with what you know.
+
+                            <a href="https://www.amazon.com/Millionaire-Messenger-Difference-Fortune-Sharing/dp/1451665997?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.Xp9F2RwJf5z2Fbw1a9ANC_fE0W2gZ_k9Hw-5WNfUVSUCcZzSt5H75QrAl4xhBp29JAGabu5kLTOpk6Lx--dc-R0EK2gc5hhAhxbUHGPvn_kbYSL8liJ48c2JHee2DXjG.Wugo9zx3er2u--8EWlOcQIMsMUtP4Y7K7bmK8VvQzRU&qid=1710116475&sr=8-1&linkCode=sl1&tag=lifsgoltic-20&linkId=f48a28e31178affa7b3c01926a53ff1c&language=en_US&ref_=as_li_ss_tl"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.com/Millionaire-Messenger-Difference-Fortune-Sharing/dp/1451665997?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.Xp9F2RwJf5z2Fbw1a9ANC_fE0W2gZ_k9Hw-5WNfUVSUCcZzSt5H75QrAl4xhBp29JAGabu5kLTOpk6Lx--dc-R0EK2gc5hhAhxbUHGPvn_kbYSL8liJ48c2JHee2DXjG.Wugo9zx3er2u--8EWlOcQIMsMUtP4Y7K7bmK8VvQzRU&qid=1710116475&sr=8-1&linkCode=sl1&tag=lifsgoltic-20&linkId=f48a28e31178affa7b3c01926a53ff1c&language=en_US&ref_=as_li_ss_tl"
+                            class="pointer"><button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.amazon.com/Lifes-Golden-Ticket-Second-Chances/dp/0062456474?crid=L2XYGK7TQGH9&keywords=lifes+golden+ticket+book&qid=1643351129&s=books&sprefix=lifes+golde,stripbooks,117&sr=1-1&linkCode=sl1&tag=lifsgoltic-20&linkId=3365b098d53890e47e11d0a5b845fe5c&language=en_US&ref_=as_li_ss_tl"
+                        class="pointer"><img src="img/twele.png" alt="" class="img-fluid">
+                        <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>
+                            Life’s Golden Ticket</h2>
+                        <h3>A Parable of Life, Loss and Redemption</h3>
+                        <p>This book is an inspirational novel about second chances in life and in love. It’s the story
+                            of a troubled <br>man who visits an abandoned amusement park searching for clues into his
+                            fiancee’s disappearance.<a
+                                href="https://www.amazon.com/Lifes-Golden-Ticket-Second-Chances/dp/0062456474?crid=L2XYGK7TQGH9&keywords=lifes+golden+ticket+book&qid=1643351129&s=books&sprefix=lifes+golde,stripbooks,117&sr=1-1&linkCode=sl1&tag=lifsgoltic-20&linkId=3365b098d53890e47e11d0a5b845fe5c&language=en_US&ref_=as_li_ss_tl"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.com/Lifes-Golden-Ticket-Second-Chances/dp/0062456474?crid=L2XYGK7TQGH9&keywords=lifes+golden+ticket+book&qid=1643351129&s=books&sprefix=lifes+golde,stripbooks,117&sr=1-1&linkCode=sl1&tag=lifsgoltic-20&linkId=3365b098d53890e47e11d0a5b845fe5c&language=en_US&ref_=as_li_ss_tl"
+                            class="pointer"><button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5"> <!-- Added custom class to apply thick bottom border -->
+                <div class="col-md-4 row-border-thick"> <!-- Decreased column size to 4 (out of 12) for the image -->
+                    <a href="https://www.amazon.com/High-Performance-Planner-Brendon-Burchard/dp/1401957234?crid=2CE1W7FWB02AT&keywords=high+performance+planner&qid=1643351180&s=books&sprefix=highperformance+pla,stripbooks,114&sr=1-3&linkCode=sl1&tag=lifsgoltic-20&linkId=ebb99af2b21ef48646350ad45ca9980e&language=en_US&ref_=as_li_ss_tl"
+                        class="pointer"><img src="img/therteen.png" alt="" class="img-fluid">
+                        <!-- Added img-fluid class for responsive image --></a>
+                </div>
+                <div class="col-md-8 row-border-thin"> <!-- Increased column size to 8 (out of 12) for the content -->
+                    <div class="wpb_wrapper">
+                        <h2>
+                            The High Performance Planner</h2>
+                        <h3>The first-ever science-backed Planner for reaching high performance in all you do.
+                        </h3>
+                        <p>Introducing the High Performance Planner, the 2-in-1 planner and journal achievers use to win
+                            the day <br>and accelerate long-term success. You’ll never feel so upbeat, organized, and
+                            on-track to achieving your dreams.<a
+                                href="https://www.amazon.com/High-Performance-Planner-Brendon-Burchard/dp/1401957234?crid=2CE1W7FWB02AT&keywords=high+performance+planner&qid=1643351180&s=books&sprefix=highperformance+pla,stripbooks,114&sr=1-3&linkCode=sl1&tag=lifsgoltic-20&linkId=ebb99af2b21ef48646350ad45ca9980e&language=en_US&ref_=as_li_ss_tl"
+                                target="_blank" rel="noopener noreferrer">Click here</a>.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.amazon.com/High-Performance-Planner-Brendon-Burchard/dp/1401957234?crid=2CE1W7FWB02AT&keywords=high+performance+planner&qid=1643351180&s=books&sprefix=highperformance+pla,stripbooks,114&sr=1-3&linkCode=sl1&tag=lifsgoltic-20&linkId=ebb99af2b21ef48646350ad45ca9980e&language=en_US&ref_=as_li_ss_tl"
+                            class="pointer"><button class="btn btn-primary mt-3 mb-5">CLICK HERE <span
+                                    class="line"></span> <span class="course">FOR COURSE LIBRARY</span></button></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Card Section End -->
+
+        <!-- Footer Section Start  -->
+
+        <section class="footer">
+            <div class="row">
+              <div class="col-12">
+                <nav class="center-nav">
+                  <ul class="list-inline m-0">
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link active">HOME</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">COURSES</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">BLOG</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">VIDEOS</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">BOOKS</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">PODCAST</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">STORE</a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://brendon.com/" class="nav-link">CONTACT</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                      <div class="custom-div">
+                          <h5>RECENT POSTS</h5>
+                          <ul class="mt-3">
+                              <li>
+                                  <a href="">The CONFIDENCE Blueprint – How to OWN Your Worth</a>
+                              </li>
+                              <li>
+                                  <a href="">The Unstoppable Power of Positive Habits</a>
+                              </li>
+                              <li>
+                                  <a href="">Master Life’s Journey – Win the War in Your Mind</a>
+                              </li>
+                              <li><a href="">The Secret to STOP Doubting Yourself</a></li>
+                              <li><a href="">STRESS and How To Conquer It!</a></li>
+                          </ul>
+                      </div>
+                      <div class="custom-div">
+                          <h5>LATEST TWEETS</h5>
+                          <p>Twitter outputted an error:
+                              </p>
+                              <p>Could not authenticate you..</p>
+                      </div>
+                      <div class="custom-div">
+                          <h5>CONNECT WITH ME</h5>
+                          <div class="col-12 col-sm-auto col-md-auto">
+                              <div class="social-icons1 mt-4">
+                                  <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/FB_icon-icons.com_65534.png" alt=""
+                                      class="custom-img1 me-2 img-fluid" />
+                                  <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/TWITTER_icon-icons.com_65536.png" alt=""
+                                      class="custom-img1 me-2 img-fluid" />
+                                  <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/YOUTUBE_icon-icons.com_65537.png" alt=""
+                                      class="custom-img1 me-2 img-fluid" />
+                                  <img src="https://cdn.icon-icons.com/icons2/792/PNG/96/INSTAGRAM_icon-icons.com_65535.png" alt=""
+                                      class="custom-img1 me-2 img-fluid" />
+                                  <img src="https://cdn.icon-icons.com/icons2/1509/PNG/96/search_104498.png" alt=""
+                                      class="custom-img1 img-fluid" />
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+        </section>
+      
+        <!-- Footer Section End  -->
+
+
+    </div>
+
+
+
+</body>
+
+</html>
